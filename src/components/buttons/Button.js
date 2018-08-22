@@ -8,10 +8,10 @@ class Button extends Component {
     render() { 
         
       return (
-          <button onClick={this.onClick} style={Btn}>
-              {this.props.buttonName}
-              Go to Dashboard
-          </button>
+        <button className={this.props.buttonClass} onClick={this.props.onClick} style=
+        {Btn}>
+        {this.props.buttonName}
+        </button>
             
       );
     }
