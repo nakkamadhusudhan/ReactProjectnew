@@ -6,7 +6,9 @@ import Footer from "./../components/footer/footer";
 
 class somepath1 extends Component{
 
-   
+    enrollMerchant = () => {
+        this.props.history.push("/");
+    }
 
     render(){
         
@@ -17,7 +19,7 @@ class somepath1 extends Component{
                   Enrollment <br/>
                   update is complete.
                   <br/>
-                  <Button />
+                  <Button buttonClass="btn btn-primary" onClick={this.enrollMerchant} buttonName="Go to Dashboard"/>
                   
             </div>
             <div><Footer /></div>
@@ -36,8 +38,6 @@ const mapStateToDispatch = Dispatch =>({
 
 });
 
-export default connect (mapStateToProps,mapStateToDispatch)(somepath1);
-
 const Text= {
     textAlign:"center",
     color:"#18b318",
@@ -49,4 +49,8 @@ const Text= {
     margin: "144px auto",
     padding:"20px",
 }
+
+export default connect (mapStateToProps,mapStateToDispatch)(somepath1);
+
+
   
