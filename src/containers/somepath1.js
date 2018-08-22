@@ -43,7 +43,7 @@ const Text= {
     color:"#18b318",
     fontFamily:"sans-serif",
     fontSize:"45px", 
-    border: "2px solid #1d1da0fa",
+    border:"3px solid #071848",
     lineHeight : "1.5",
     width:"484px",  
     margin: "144px auto",
