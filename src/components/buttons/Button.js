@@ -8,7 +8,7 @@ class Button extends Component {
     render() { 
         
       return (
-          <button onClick={this.onClick}>
+          <button onClick={this.onClick} style={Btn}>
               {this.props.buttonName}
               Go to Dashboard
           </button>
@@ -17,5 +17,12 @@ class Button extends Component {
     }
 }
 
-
+const Btn={
+   border:"3px solid #071848",
+   width:"auto",
+   fontSize:"20px",
+   fontFamily:"sans-serif",
+   color:"#0e0e0ef7",
+   height:"40px",
+}
 export default Button;
