@@ -26,16 +26,6 @@ class MerchantLogin extends Component {
           <div>
             <h2>FundsAdvance-Update card</h2>
             <br/>
-            <div>
-            <input type="text" placeholder='enter name' /><br/>
-                <div>
-                   <input type="text" placeholder='enter name' />
-                </div>
-                <td className='col-md-10'>
-         
-    </td>
-
-            </div>
             
           </div>
       );
